@@ -23,7 +23,7 @@ shipyard "Relic ships"
 	"Shard Scout"
 	"Lance Scout"
 	"Shard Hunter"
-	"Relic Hauler"
+	"Scavenger Unit"
 
 shipyard "Helix shipyard"
 	"Leviathan"

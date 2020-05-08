@@ -141,9 +141,9 @@ ship "Shard Hunter"
 	explode "medium explosion" 10
 	"final explode" "final explosion small"
 
-ship "Relic Hauler"
-	sprite "ship/Relic Hauler"
-	thumbnail "thumbnail/Relic Hauler"
+ship "Scavenger Unit"
+	sprite "ship/Scavenger Unit"
+	thumbnail "thumbnail/Scavenger Unit"
 	attributes
 		category "Light Freighter"
 		"cost" 1300000
