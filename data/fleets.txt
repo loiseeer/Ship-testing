@@ -51,7 +51,7 @@ fleet "Relic Harvester"
 		timid mining harvests
 		confusion 10
 	variant 1
-		"Relic Hauler"
+		"Scavenger Unit"
 
 fleet "Helix Defense"
 	government "Helix Corp"
