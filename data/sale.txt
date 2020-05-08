@@ -9,10 +9,10 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 outfitter "Relic outfit"
-	"Small Engine"
-	"Small Steering"
-	"Med Engine"
-	"Med Steering"
+	"Trian Engine"
+	"Trian Steering"
+	"Quadran Engine"
+	"Quadran Steering"
 	"Small Reactor"
 	"Medium Reactor"
 	"Repair Unit"
