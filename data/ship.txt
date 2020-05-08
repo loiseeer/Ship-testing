@@ -1,0 +1,185 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Shard Scout"
+	sprite "ship/Shard Scout"
+	thumbnail "thumbnail/Shard Scout"
+	attributes
+		category "Interceptor"
+		"cost" 1250000
+		"self destruct" 0.6
+		"shields" 2500
+		"hull" 600
+		"automaton" 1
+		"mass" 115
+		"drag" 1.5
+		"heat dissipation" .9
+		"fuel capacity" 500
+		"outfit space" 98
+		"weapon capacity" 28
+		"engine capacity" 38
+		"energy capacity" 300
+		"energy generation" 7.2
+		"heat generation" 7.8
+		ramscoop 2
+		weapon
+			"blast radius" 31
+			"shield damage" 310
+			"hull damage" 155
+			"hit force" 465
+	outfits
+		
+		"Bolt Caster" 2
+
+		"Trian Steering"
+		"Trian Engine"
+		"Hyperdrive"
+		"Repair Unit"
+	
+	gun 5 -30.5
+	gun -5 -30.5
+	engine 6.5 31
+	engine -6.5 31
+	explode "tiny explosion" 15
+	explode "small explosion" 20
+	"final explode" "final explosion tiny"
+
+ship "Lance Scout"
+	sprite "ship/Lance Scout"
+	thumbnail "thumbnail/Lance Scout"
+	attributes
+		category "Interceptor"
+		"cost" 1140000
+		"self destruct" 0.6
+		"shields" 2100
+		"hull" 1000
+		"automaton" 1
+		"mass" 150
+		"drag" 2
+		"heat dissipation" .9
+		"fuel capacity" 500
+		"outfit space" 98
+		"weapon capacity" 28
+		"engine capacity" 38
+		"energy capacity" 450
+		"energy generation" 7.2
+		"heat generation" 7.8
+		ramscoop 2
+		weapon
+			"blast radius" 31
+			"shield damage" 310
+			"hull damage" 155
+			"hit force" 465
+	outfits
+		
+		"Flash Cutter"
+
+		"Trian Steering"
+		"Trian Engine"
+		"Hyperdrive"
+		"Repair Unit"
+	
+	gun 0 -9.5
+	engine 0 18.5
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	"final explode" "final explosion tiny"
+
+ship "Shard Hunter"
+	sprite "ship/Shard Hunter"
+	thumbnail "thumbnail/Shard Hunter"
+	attributes
+		category "Light Warship"
+		"cost" 5400000
+		"self destruct" 0.7
+		"shields" 6100
+		"hull" 1400
+		"automaton" 1
+		"mass" 296
+		"drag" 3.6
+		"heat dissipation" .8
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 188
+		"weapon capacity" 124
+		"engine capacity" 62
+		"energy capacity" 680
+		"energy generation" 14.9
+		"heat generation" 14.2
+		ramscoop 4
+		weapon
+			"blast radius" 75
+			"shield damage" 750
+			"hull damage" 375
+			"hit force" 1125
+	outfits
+
+		"Bolt Caster" 4
+		"Flash Cutter"
+
+		"Quadran Steering"
+		"Quadran Engine"
+		"Hyperdrive"
+		"Repair Unit" 2
+	
+	gun 10.5 -57
+	gun -10.5 -57
+	gun 0 -42.5 "Flash Cutter"
+	gun 20.5 -34
+	gun -20.5 -34
+	engine 12 50
+	engine -12 50
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	"final explode" "final explosion small"
+
+ship "Relic Hauler"
+	sprite "ship/Relic Hauler"
+	thumbnail "thumbnail/Relic Hauler"
+	attributes
+		category "Light Freighter"
+		"cost" 1300000
+		"self destruct" 0.7
+		"shields" 8800
+		"hull" 3600
+		"automaton" 1
+		"mass" 510
+		"drag" 4.5
+		"heat dissipation" .8
+		"fuel capacity" 800
+		"cargo space" 160
+		"outfit space" 154
+		"weapon capacity" 28
+		"engine capacity" 82
+		"energy capacity" 3000
+		"energy generation" 7.2
+		"heat generation" 7.8
+		ramscoop 6
+		weapon
+			"blast radius" 124
+			"shield damage" 1240
+			"hull damage" 620
+			"hit force" 1860
+	outfits
+
+		"Flash Cutter"
+
+		"Quadran Steering"
+		"Quadran Engine"
+		"Hyperdrive"
+		"Repair Unit" 4
+	gun 0 -59
+	engine 32 8.5
+	engine -32 8.5
+	explode "tiny explosion" 20
+	explode "small explosion" 35
+	explode "medium explosion" 5
+	"final explode" "final explosion small"

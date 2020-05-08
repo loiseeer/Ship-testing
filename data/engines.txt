@@ -1,0 +1,60 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Trian Engine"
+	category "Engines"
+	cost 100000
+	thumbnail "outfit/Trian Engine"
+	"mass" 19
+	"outfit space" -19
+	"engine capacity" -19
+	"thrust" 13.0
+	"thrusting energy" 2.2
+	"thrusting heat" 1.4
+	"flare sprite" "effect/plasma flare/tiny"
+		"frame rate" 7
+	"flare sound" "plasma tiny"
+
+outfit "Trian Steering"
+	category "Engines"
+	cost 60000
+	thumbnail "outfit/Trian Steering"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 350
+	"turning energy" 1.18
+	"turning heat" 0.7
+
+outfit "Quadran Engine"
+	category "Engines"
+	cost 380000
+	thumbnail "outfit/Quadran Engine"
+	"mass" 30
+	"outfit space" -31
+	"engine capacity" -31
+	"thrust" 23.6
+	"thrusting energy" 3.5
+	"thrusting heat" 2.2
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 7
+	"flare sound" "plasma small"
+
+
+outfit "Quadran Steering"
+	category "Engines"
+	cost 320000
+	thumbnail "outfit/Quadran Steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 610
+	"turning energy" 1.65
+	"turning heat" 1.1

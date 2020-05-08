@@ -1,0 +1,121 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+fleet "Relic Scout"
+	government "Relic"
+	names "Relics"
+	cargo 0
+	personality 
+		opportunistic timid
+		confusion 30
+	variant 1
+		"Lance Scout"
+	variant 1
+		"Shard Scout"
+	variant 1
+		"Shard Scout"
+		"Lance Scout"
+
+fleet "Relic Light"
+	government "Relic"
+	names "Relics"
+	cargo 0
+	personality
+		opportunistic timid
+		confusion 30
+	variant 1
+		"Lance Scout"
+		"Shard Hunter"
+	variant 1
+		"Shard Scout"
+		"Lance Scout"
+		"Shard Hunter"
+	variant 1
+		"Shard Scout"
+		"Shard Hunter"
+	variant 1
+		"Shard Hunter" 2
+
+fleet "Relic Harvester"
+	government "Relic"
+	names "Relic"
+	cargo 0
+	personality 
+		timid mining harvests
+		confusion 10
+	variant 1
+		"Relic Hauler"
+
+fleet "Helix Defense"
+	government "Helix Corp"
+	names "civilian"
+	personality
+		frugal disables opportunistic
+		confusion 20
+	variant 1
+		"Protector (Proton)"
+		"Leviathan (Hai Engines)"
+	variant 1
+		"Leviathan (Hai Engines)"
+		"Falcon (Laser)"
+
+fleet "Helix Small"
+	government "Helix Corp"
+	names "civilian"
+	personality 
+		plunders opportunistic
+		confusion 20
+	variant 1
+		"Falcon (Laser)"
+	variant 1
+		"Leviathan (Hai Engines)"
+
+fleet "Helix Maintenance"
+	government "Helix Corp"
+	names "civilian"
+	cargo 2
+	personality 
+		frugal opportunistic timid coward
+		confusion 30
+	variant 20
+		"Argosy"
+	variant 20
+		"Mule"
+	variant 5
+		"Freighter" 2
+	variant 5
+		"Freighter"
+		"Mule"
+	variant 5
+		"Argosy"
+		"Freighter"
+
+fleet "Helix Cargo"
+	government "Helix Corp"
+	names "civilian"
+	cargo 3
+	personality 
+		frugal opportunistic timid coward
+		confusion 30
+	variant 1
+		"Behemoth"
+	variant 1
+		"Bactrian"
+		
+fleet "Helix Harvester"
+	government "Helix Corp"
+	names "civilian"
+	personality 
+		timid mining harvests
+		confusion 10
+	variant 1
+		"Headhunter (Miner)"
+	variant 1
+		"Splinter"

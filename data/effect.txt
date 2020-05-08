@@ -1,0 +1,24 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+effect "Caster hit"
+	sprite "effect/Caster impact"
+		"frame rate" 1
+		"no repeat"
+	"lifetime" 3
+	"velocity scale" 0
+
+effect "Cutter hit"
+	sprite "effect/Cutter"
+		"frame rate" 2
+		"no repeat"
+	"lifetime" 2
+	"velocity scale" 0
+	"random angle" 5

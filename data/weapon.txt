@@ -1,0 +1,57 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Bolt Caster"
+	category "Guns"
+	cost 280000
+	thumbnail "outfit/Bolt Caster"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/Bolt"
+		"hardpoint offset" -1
+		sound "blaster"
+		"hit effect" "Caster hit"
+		"inaccuracy" 4
+		"velocity" 15
+		"lifetime" 32
+		"reload" 8
+		"firing energy" 21.8
+		"firing heat" 28
+		"shield damage" 19
+		"hull damage" 1.5
+		"heat damage" 102
+	description "Once powered, the spikes at the front seemingly start to float, acting as a conduit for the crystal"
+
+outfit "Flash Cutter"
+	category "Guns"
+	cost 650000
+	thumbnail "outfit/Flash Cutter"
+	"mass" 26
+	"outfit space" -26
+	"weapon capacity" -26
+	"gun ports" -1
+	weapon
+		sprite "projectile/Cutter"
+		sound "slicer"
+		"hit effect" "Cutter hit"
+		"inaccuracy" 0.1
+		"velocity" 500
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 7.8
+		"firing heat" 12.5
+		"shield damage" 2.5
+		"hull damage" 24
+		"heat damage" 13
+	description "Used to cut down astroids and ship hull alike. The cutter is capable of scrapping a huge warship down into small chunks at staggering speed and accuracy"
+	
