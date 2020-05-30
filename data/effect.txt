@@ -8,17 +8,32 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-effect "Caster hit"
-	sprite "effect/Caster impact"
-		"frame rate" 1
+effect "Fragment A"
+	sprite "effect/FragA"
+		"frame rate" 15
 		"no repeat"
-	"lifetime" 3
+	lifetime 12
 	"velocity scale" 0
+	"random velocity" 2
+	"random angle" 360
+	"random spin" 2
 
-effect "Cutter hit"
-	sprite "effect/Cutter"
-		"frame rate" 2
+effect "Fragment B"
+	sprite "effect/FragB"
+		"frame rate" 15
 		"no repeat"
-	"lifetime" 2
+	lifetime 12
 	"velocity scale" 0
-	"random angle" 5
+	"random velocity" 3
+	"random angle" 360
+	"random spin" 1
+
+effect "Fragment C"
+	sprite "effect/FragC"
+		"frame rate" 15
+		"no repeat"
+	lifetime 12
+	"velocity scale" 0
+	"random velocity" 6
+	"random angle" 360
+	"random spin" 1

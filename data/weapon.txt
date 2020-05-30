@@ -20,7 +20,9 @@ outfit "Bolt Caster"
 		sprite "projectile/Bolt"
 		"hardpoint offset" -1
 		sound "blaster"
+		"die effect" "Fragment C" 2
 		"hit effect" "Caster hit"
+		"hit effect" "Fragment C" 2
 		"inaccuracy" 4
 		"velocity" 15
 		"lifetime" 32
@@ -30,7 +32,122 @@ outfit "Bolt Caster"
 		"shield damage" 19
 		"hull damage" 1.5
 		"heat damage" 102
-	description "Once powered, the spikes at the front seemingly start to float, acting as a conduit for the crystal"
+	description ""
+	
+effect "Caster hit"
+	sprite "effect/Caster impact"
+		"frame rate" 20
+		"no repeat"
+	"lifetime" 9
+	"velocity scale" 0
+
+outfit "Caster Turret"
+	category "Turrets"
+	cost 1080000
+	thumbnail "outfit/Caster Turret"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	weapon
+		sprite "projectile/Bolt"
+		"hardpoint sprite" "hardpoint/Caster Turret"
+		"hardpoint offset" 0.2
+		"turret turn" 2.4
+		sound "blaster"
+		"die effect" "Fragment C" 2
+		"hit effect" "Caster hit"
+		"hit effect" "Fragment C" 3
+		"inaccuracy" 3
+		"velocity" 16
+		"lifetime" 42
+		"reload" 3
+		"firing energy" 19.4
+		"firing heat" 25
+		"shield damage" 21
+		"hull damage" 3.5
+		"heat damage" 120
+		"burst count" 3
+		"burst reload" 1
+	description ""
+
+outfit "Pincer"
+	category "Turrets"
+	cost 1080000
+	thumbnail "outfit/Pincer"
+	"mass" 26
+	"outfit space" -26
+	"weapon capacity" -26
+	"turret mounts" -1
+	weapon
+		sprite "projectile/Pincer"
+		"hardpoint sprite" "hardpoint/Pincer"
+		"hardpoint offset" 0.25
+		"turret turn" 1.3
+		sound "banisher"
+		"hit effect" "Pincer hit"
+		"hit effect" "Pincer Fragment" 1
+		"inaccuracy" 0.05
+		"velocity" 740
+		"lifetime" 1
+		"reload" 4
+		"firing energy" 20.5
+		"firing heat" 12
+		"shield damage" 10
+		"hull damage" 5
+		"slowing damage" 0.65
+		"burst count" 60
+		"burst reload" 2
+		stream
+	description ""
+
+effect "Pincer hit"
+	sprite "effect/PinHit"
+		"frame rate" 15
+		"no repeat"
+	"lifetime" 12
+	"velocity scale" 0
+	"random spin" 60
+
+effect "Pincer Fragment"
+	sprite "effect/Pinfrag"
+		"frame rate" 10
+	"lifetime" 18
+	"velocity scale" 0
+	"random velocity" 2
+	"random angle" 360
+	"random spin" 3
+
+
+outfit "Obsidian Unit"
+	category "Turrets"
+	cost 820000
+	thumbnail "outfit/Obsidian Unit"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -25
+	"turret mounts" -1
+	"energy generation" 2.3
+	"heat generation" 1.65
+	weapon
+		"hardpoint sprite" "hardpoint/Obsidian Unit"
+		"fire effect" "Fragment A" 4
+		"die effect" "Obsidian"
+		"die effect" "Fragment C" 5
+		"anti-missile" 14
+		"velocity" 400
+		"lifetime" 1
+		"reload" 12
+		"firing energy" 35
+		"firing heat" 25
+	description ""
+
+effect "Obsidian"
+	sprite "effect/Obfire"
+		"frame rate" 12
+		"no repeat"
+	"lifetime" 20
+	"velocity scale" 0
 
 outfit "Flash Cutter"
 	category "Guns"
@@ -53,5 +170,58 @@ outfit "Flash Cutter"
 		"shield damage" 2.5
 		"hull damage" 24
 		"heat damage" 13
-	description "Used to cut down astroids and ship hull alike. The cutter is capable of scrapping a huge warship down into small chunks at staggering speed and accuracy"
-	
+	description ""
+
+effect "Cutter hit"
+	sprite "effect/Cutter"
+		"frame rate" 2
+		"no repeat"
+	"lifetime" 2
+	"velocity scale" 0
+	"random spin" 30
+
+outfit "Crystaline"
+	category "Secondary Weapons"
+	cost 200000
+	thumbnail "outfit/Crystaline"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	"Shard capacity" 90
+	weapon
+		sprite "projectile/Shard"
+		sound "explosion small"
+		ammo "Shard"
+		icon "icon/sidewinder"
+		"fire effect" "meteor fire"
+		"die effect" "tiny explosion"
+		"hit effect" "tiny explosion"
+		"hit effect" "Fragment C" 3
+		"hit effect" Fragment A"
+		"inaccuracy" 4
+		"velocity" 14
+		"lifetime" 35
+		"reload" 15
+		"firing energy" 8.5
+		"firing heat" 30
+		"shield damage" 70
+		"hull damage" 45
+		"heat damage" 860
+		
+		acceleration 0.1
+		drag 0.015
+		"piercing" 0.3
+		"missile strength" 14
+		"burst count" 9
+		"burst reload" 5
+		cluster
+	description ""
+
+outfit "Shard"
+	category "Ammunition"
+	cost 1
+	thumbnail "outfit/Shard"
+	"mass" .05
+	"Shard capacity" -1
+	description ""

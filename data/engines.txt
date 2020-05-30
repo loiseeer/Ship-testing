@@ -58,3 +58,29 @@ outfit "Quadran Steering"
 	"turn" 610
 	"turning energy" 1.65
 	"turning heat" 1.1
+
+outfit "Penran Engine"
+	category "Engines"
+	cost 890000
+	thumbnail "outfit/Penran Engine"
+	"mass" 55
+	"outfit space" -55
+	"engine capacity" -55
+	"thrust" 48.2
+	"thrusting energy" 5.2
+	"thrusting heat" 3.5
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 7
+	"flare sound" "plasma medium"
+
+
+outfit "Penran Steering"
+	category "Engines"
+	cost 920000
+	thumbnail "outfit/Penran Steering"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"turn" 1310
+	"turning energy" 3.05
+	"turning heat" 1.7

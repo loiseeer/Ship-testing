@@ -36,4 +36,4 @@ outfit "Repair Unit"
 	"shield generation" 0.42
 	"hull energy" 0.06
 	"hull repair rate" 0.1
-	description "Small and compact maintenance unit used by Relic ships"
+	description "Small and compact maintenance unit"

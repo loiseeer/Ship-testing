@@ -13,10 +13,10 @@ ship "Shard Scout"
 	thumbnail "thumbnail/Shard Scout"
 	attributes
 		category "Interceptor"
-		"cost" 1250000
+		"cost" 920000
 		"self destruct" 0.6
-		"shields" 2500
-		"hull" 600
+		"shields" 1600
+		"hull" 500
 		"automaton" 1
 		"mass" 115
 		"drag" 1.5
@@ -56,10 +56,10 @@ ship "Lance Scout"
 	thumbnail "thumbnail/Lance Scout"
 	attributes
 		category "Interceptor"
-		"cost" 1140000
+		"cost" 1010000
 		"self destruct" 0.6
-		"shields" 2100
-		"hull" 1000
+		"shields" 1500
+		"hull" 700
 		"automaton" 1
 		"mass" 150
 		"drag" 2
@@ -106,9 +106,9 @@ ship "Shard Hunter"
 		"drag" 3.6
 		"heat dissipation" .8
 		"fuel capacity" 700
-		"cargo space" 50
-		"outfit space" 188
-		"weapon capacity" 124
+		"cargo space" 40
+		"outfit space" 196
+		"weapon capacity" 104
 		"engine capacity" 62
 		"energy capacity" 680
 		"energy generation" 14.9
@@ -140,6 +140,133 @@ ship "Shard Hunter"
 	explode "small explosion" 20
 	explode "medium explosion" 10
 	"final explode" "final explosion small"
+
+ship "Lance Slicer"
+	sprite "ship/Lance Slicer"
+	thumbnail "thumbnail/Lance Slicer"
+	attributes
+		category "Light Warship"
+		"cost" 5400000
+		"self destruct" 0.7
+		"shields" 6100
+		"hull" 1400
+		"automaton" 1
+		"mass" 296
+		"drag" 3.6
+		"heat dissipation" .8
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 182
+		"weapon capacity" 98
+		"engine capacity" 56
+		"energy capacity" 520
+		"energy generation" 14.9
+		"heat generation" 14.2
+		ramscoop 4
+		weapon
+			"blast radius" 75
+			"shield damage" 750
+			"hull damage" 375
+			"hit force" 1125
+	outfits
+
+		"Quadran Steering"
+		"Quadran Engine"
+		"Hyperdrive"
+		"Repair Unit" 2
+
+ship "Blaze"
+	sprite "ship/Blaze"
+	thumbnail "thumbnail/Blaze"
+	attributes
+		category "Light Warship"
+		"cost" 4100000
+		"self destruct" 0.7
+		"shields" 4600
+		"hull" 1100
+		"automaton" 1
+		"mass" 206
+		"drag" 4.5
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 188
+		"weapon capacity" 92
+		"engine capacity" 65
+		"energy capacity" 680
+		"energy generation" 14.9
+		"heat generation" 14.2
+		ramscoop 6
+		weapon
+			"blast radius" 75
+			"shield damage" 750
+			"hull damage" 375
+			"hit force" 1125
+	outfits
+
+		"Crystaline" 2
+		"Bolt Caster" 2
+		"Shard" 180
+
+		"Quadran Steering"
+		"Quadran Engine"
+		"Hyperdrive"
+		"Repair Unit" 2
+
+	gun 11 -2 "Crystaline"
+	gun -11 -2 "Crystaline"
+	gun 28.5 -4 "Bolt Caster"
+	gun -28.5 -4 "Bolt Caster"
+	engine 11.5 48.5
+	engine -11.5 48.5
+	explode "tiny explosion" 25
+	explode "small explosion" 30
+	explode "medium explosion" 5
+	"final explode" "final explosion small"
+
+ship "Battalion"
+	sprite "ship/Battalion"
+	thumbnail "thumbnail/Battalion"
+	attributes
+		category "Medium Warship"
+		"cost" 12800000
+		"self destruct" 0.8
+		"shields" 9200
+		"hull" 5600
+		"automaton" 1
+		"mass" 330
+		"drag" 13.5
+		"heat dissipation" .7
+		"fuel capacity" 800
+		"cargo space" 100
+		"outfit space" 296
+		"weapon capacity" 138
+		"engine capacity" 95
+		"energy capacity" 3500
+		"energy generation" 14.9
+		"heat generation" 14.2
+		ramscoop 4
+	
+	outfits
+
+		"Caster Turret" 2
+		"Obsidian Unit" 2
+
+		"Quadran Steering"
+		"Penran Engine"
+		"Hyperdrive"
+		"Repair Unit" 3
+
+	turret 0 -27 "Obsidian Unit"
+	turret 0 29.5 "Obsidian Unit"
+	turret 27.5 75.5 "Caster Turret"
+	turret -27.5 75.5 "Caster Turret"
+	engine 24.5 92.5
+	engine -24.5 92.5
+	explode "small explosion" 40
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
 
 ship "Scavenger Unit"
 	sprite "ship/Scavenger Unit"
