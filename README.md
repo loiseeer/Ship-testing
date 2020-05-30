@@ -1,2 +1,2 @@
 # Testing
- A work in progress endless sky plugin
+A preview of what’s to come
