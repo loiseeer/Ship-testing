@@ -8,9 +8,9 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-ship "Shard Scout"
-	sprite "ship/Shard Scout"
-	thumbnail "thumbnail/Shard Scout"
+ship "Firekin"
+	sprite "ship/Firekin"
+	thumbnail "thumbnail/Firekin"
 	attributes
 		category "Interceptor"
 		"cost" 920000
@@ -25,7 +25,7 @@ ship "Shard Scout"
 		"outfit space" 98
 		"weapon capacity" 28
 		"engine capacity" 38
-		"energy capacity" 300
+		"energy capacity" 250
 		"energy generation" 7.2
 		"heat generation" 7.8
 		ramscoop 2
@@ -51,9 +51,9 @@ ship "Shard Scout"
 	explode "small explosion" 20
 	"final explode" "final explosion tiny"
 
-ship "Lance Scout"
-	sprite "ship/Lance Scout"
-	thumbnail "thumbnail/Lance Scout"
+ship "Ember"
+	sprite "ship/Ember"
+	thumbnail "thumbnail/Ember"
 	attributes
 		category "Interceptor"
 		"cost" 1010000
@@ -68,7 +68,7 @@ ship "Lance Scout"
 		"outfit space" 98
 		"weapon capacity" 28
 		"engine capacity" 38
-		"energy capacity" 450
+		"energy capacity" 350
 		"energy generation" 7.2
 		"heat generation" 7.8
 		ramscoop 2
@@ -92,9 +92,53 @@ ship "Lance Scout"
 	explode "small explosion" 20
 	"final explode" "final explosion tiny"
 
-ship "Shard Hunter"
-	sprite "ship/Shard Hunter"
-	thumbnail "thumbnail/Shard Hunter"
+ship "Pyre"
+	sprite "ship/Pyre"
+	thumbnail "thumbnail/Pyre"
+	attributes
+		category "Drone"
+		"cost" 60000
+		"self destruct" 0.4
+		"shields" 1800
+		"hull" 350
+		"automaton" 1
+		"mass" 80
+		"drag" 1.3
+		"heat dissipation" .95
+		"outfit space" 44
+		"weapon capacity" 28
+		"engine capacity" 0
+		"energy capacity" 150
+		"energy generation" 5.5
+		"heat generation" 3.2
+		"thrust" 7.5
+		"thrusting energy" 0.5
+		"thrusting heat" 0.35
+		"flare sprite" "effect/plasma flare/tiny"
+		"frame rate" 7
+		"flare sound" "plasma tiny"
+		"turn" 190
+		"turning energy" 0.4
+		"turning heat" 0.25
+		weapon
+			"blast radius" 13
+			"shield damage" 130
+			"hull damage" 60
+			"hit force" 200
+	outfits
+		
+		"Pincer"
+		"Repair Unit"
+
+	turret 0 0
+	engine 0 13
+	explode "tiny explosion" 15
+	explode "small explosion" 10
+	"final explode" "final explosion tiny"
+
+ship "Cinder"
+	sprite "ship/Cinder"
+	thumbnail "thumbnail/Cinder"
 	attributes
 		category "Light Warship"
 		"cost" 5400000
@@ -110,7 +154,7 @@ ship "Shard Hunter"
 		"outfit space" 211
 		"weapon capacity" 104
 		"engine capacity" 62
-		"energy capacity" 680
+		"energy capacity" 750
 		"energy generation" 14.9
 		"heat generation" 14.2
 		ramscoop 4
@@ -194,7 +238,7 @@ ship "Blaze"
 		"outfit space" 203
 		"weapon capacity" 92
 		"engine capacity" 65
-		"energy capacity" 680
+		"energy capacity" 800
 		"energy generation" 14.9
 		"heat generation" 14.2
 		ramscoop 6
@@ -236,8 +280,8 @@ ship "Battalion"
 		"shields" 12200
 		"hull" 7600
 		"automaton" 1
-		"mass" 320
-		"drag" 13.5
+		"mass" 260
+		"drag" 12.5
 		"heat dissipation" .7
 		"fuel capacity" 800
 		"cargo space" 100
@@ -269,6 +313,8 @@ ship "Battalion"
 	turret 0 29.5 "Obsidian Unit"
 	turret 27.5 75.5 "Caster Turret"
 	turret -27.5 75.5 "Caster Turret"
+	drone 32.5 29.5 under right
+	drone -32.5 29.5 under left
 	engine 24.5 92.5
 	engine -24.5 92.5
 	explode "small explosion" 40
@@ -294,7 +340,7 @@ ship "Firestorm"
 		"outfit space" 363
 		"weapon capacity" 196
 		"engine capacity" 136
-		"energy capacity" 2800
+		"energy capacity" 2100
 		"energy generation" 15.6
 		"heat generation" 14.6
 		ramscoop 8
@@ -352,7 +398,7 @@ ship "Scavenger Unit"
 		"outfit space" 154
 		"weapon capacity" 28
 		"engine capacity" 82
-		"energy capacity" 3000
+		"energy capacity" 1500
 		"energy generation" 7.2
 		"heat generation" 7.8
 		ramscoop 6
@@ -396,7 +442,7 @@ ship "Inferno"
 		"outfit space" 512
 		"weapon capacity" 268
 		"engine capacity" 154
-		"energy capacity" 6500
+		"energy capacity" 3000
 		"energy generation" 42.5
 		"heat generation" 31.9
 		ramscoop 6
