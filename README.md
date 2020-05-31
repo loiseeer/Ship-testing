@@ -1,2 +1,2 @@
-# Excavation
- A work in progress endless sky plugin
+# Testing
+A preview of what’s to come
