@@ -231,21 +231,26 @@ ship "Battalion"
 		category "Medium Warship"
 		"cost" 12800000
 		"self destruct" 0.8
-		"shields" 9200
-		"hull" 5600
+		"shields" 12200
+		"hull" 7600
 		"automaton" 1
 		"mass" 330
 		"drag" 13.5
 		"heat dissipation" .7
 		"fuel capacity" 800
 		"cargo space" 100
-		"outfit space" 296
+		"outfit space" 282
 		"weapon capacity" 138
 		"engine capacity" 95
 		"energy capacity" 3500
 		"energy generation" 14.9
 		"heat generation" 14.2
 		ramscoop 4
+		weapon
+			"blast radius" 180
+			"shield damage" 2500
+			"hull damage" 1500
+			"hit force" 3500
 	
 	outfits
 
@@ -266,6 +271,63 @@ ship "Battalion"
 	explode "small explosion" 40
 	explode "medium explosion" 20
 	explode "large explosion" 10
+	"final explode" "final explosion medium"
+
+ship "Firestorm"
+	sprite "ship/Firestorm"
+	thumbnail "thumbnail/Firestorm"
+	attributes
+		category "Medium Warship"
+		"cost" 9800000
+		"self destruct" 0.8
+		"shields" 10800
+		"hull" 5800
+		"automaton" 1
+		"mass" 260
+		"drag" 7.8
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 348
+		"weapon capacity" 196
+		"engine capacity" 136
+		"energy capacity" 2800
+		"energy generation" 15.6
+		"heat generation" 14.6
+		ramscoop 8
+		weapon
+			"blast radius" 150
+			"shield damage" 2000
+			"hull damage" 1000
+			"hit force" 3000
+	
+	outfits
+		
+		"Bolt Caster" 4
+		"Crystaline" 4
+		"Shard" 360
+		"Obsidian Unit"
+
+		"Penran Steering"
+		"Penran Engine"
+		"Hyperdrive"
+		"Repair Unit" 3
+	
+	gun 0 -74
+	gun 10.5 -94.5 "Bolt Caster"
+	gun -10.5 -94.5 "Bolt Caster"
+	gun 20.5 -79 "Bolt Caster"
+	gun -20.5 -79 "Bolt Caster"
+	gun 46.5 11 "Crystaline"
+	gun -46.5 11 "Crystaline"
+	gun 60 11 "Crystaline"
+	gun -60 11 "Crystaline"
+	turret 0 62
+	engine 24 101
+	engine -24 101
+	explode "small explosion" 30
+	explode "medium explosion" 25
+	explode "large explosion" 12
 	"final explode" "final explosion medium"
 
 ship "Scavenger Unit"
@@ -310,3 +372,66 @@ ship "Scavenger Unit"
 	explode "small explosion" 35
 	explode "medium explosion" 5
 	"final explode" "final explosion small"
+
+ship "Inferno"
+	sprite "ship/Inferno"
+	thumbnail "thumbnail/Inferno"
+	attributes
+		category "Heavy Warship"
+		"cost" 12800000
+		"self destruct" 0.8
+		"shields" 26800
+		"hull" 8900
+		"required crew" 1
+		"bunks" 1
+		"mass" 630
+		"drag" 13.5
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 80
+		"outfit space" 482
+		"weapon capacity" 268
+		"engine capacity" 154
+		"energy capacity" 6500
+		"energy generation" 42.5
+		"heat generation" 31.9
+		ramscoop 6
+		weapon
+			"blast radius" 250
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	
+	outfits
+
+		"Crystaline" 2
+		"Shard" 180
+		"Flash Cutter" 2
+		"Bolt Caster" 6
+		"Obsidian Unit"
+		"Pincer" 2
+
+		"Hexan Steering"
+		"Hexan Engine"
+		"Hyperdrive"
+		"Repair Unit" 4
+
+	gun 6.5 -74 "Crystaline"
+	gun -6.5 -74 "Crystaline"
+	gun 13.5 -106 "Flash Cutter"
+	gun -13.5 -106 "Flash Cutter"
+	gun 25 -82 "Bolt Caster"
+	gun -25 -82 "Bolt Caster"
+	gun 31 -65 "Bolt Caster"
+	gun -31 -65 "Bolt Caster"
+	gun 37 -49 "Bolt Caster"
+	gun -37 -49 "Bolt Caster"
+	turret 0 -14.5 "Obsidian Unit"
+	turret 12.5 -46 "Pincer"
+	turret -12.5 -46 "Pincer"
+	engine 29 97.5
+	engine -29 97.5
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion large"

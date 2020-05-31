@@ -31,7 +31,7 @@ outfit "Bolt Caster"
 		"firing heat" 28
 		"shield damage" 19
 		"hull damage" 1.5
-		"heat damage" 102
+		"heat damage" 82
 	description ""
 	
 effect "Caster hit"
@@ -191,11 +191,13 @@ outfit "Crystaline"
 	"Shard capacity" 90
 	weapon
 		sprite "projectile/Shard"
+		"hardpoint offset" 0.3
 		sound "explosion small"
 		ammo "Shard"
 		icon "icon/sidewinder"
 		"fire effect" "meteor fire"
 		"die effect" "tiny explosion"
+		"die effect" "Fragment C" 3
 		"hit effect" "tiny explosion"
 		"hit effect" "Fragment C" 3
 		"hit effect" Fragment A"
@@ -207,7 +209,7 @@ outfit "Crystaline"
 		"firing heat" 30
 		"shield damage" 70
 		"hull damage" 45
-		"heat damage" 860
+		"heat damage" 580
 		
 		acceleration 0.1
 		drag 0.015
@@ -220,8 +222,8 @@ outfit "Crystaline"
 
 outfit "Shard"
 	category "Ammunition"
-	cost 1
+	cost 800
 	thumbnail "outfit/Shard"
-	"mass" .05
+	"mass" 0.2
 	"Shard capacity" -1
 	description ""

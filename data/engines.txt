@@ -84,3 +84,28 @@ outfit "Penran Steering"
 	"turn" 1310
 	"turning energy" 3.05
 	"turning heat" 1.7
+
+outfit "Hexan Engine"
+	category "Engines"
+	cost 186000
+	thumbnail "outfit/unknown"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"thrust" 76.5
+	"thrusting energy" 9.2
+	"thrusting heat" 6.7
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 7
+	"flare sound" "plasma large"
+
+outfit "Hexan Steering"
+	category "Engines"
+	cost 2020000
+	thumbnail "outfit/unknown"
+	"mass" 58
+	"outfit space" -58
+	"engine capacity" -58
+	"turn" 2010
+	"turning energy" 5.05
+	"turning heat" 2.5
