@@ -102,12 +102,12 @@ ship "Shard Hunter"
 		"shields" 6100
 		"hull" 1400
 		"automaton" 1
-		"mass" 296
+		"mass" 286
 		"drag" 3.6
 		"heat dissipation" .8
 		"fuel capacity" 700
 		"cargo space" 40
-		"outfit space" 196
+		"outfit space" 211
 		"weapon capacity" 104
 		"engine capacity" 62
 		"energy capacity" 680
@@ -128,6 +128,7 @@ ship "Shard Hunter"
 		"Quadran Engine"
 		"Hyperdrive"
 		"Repair Unit" 2
+		"Cooling Unit"
 	
 	gun 10.5 -57
 	gun -10.5 -57
@@ -185,12 +186,12 @@ ship "Blaze"
 		"shields" 4600
 		"hull" 1100
 		"automaton" 1
-		"mass" 206
+		"mass" 196
 		"drag" 4.5
 		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 20
-		"outfit space" 188
+		"outfit space" 203
 		"weapon capacity" 92
 		"engine capacity" 65
 		"energy capacity" 680
@@ -212,6 +213,7 @@ ship "Blaze"
 		"Quadran Engine"
 		"Hyperdrive"
 		"Repair Unit" 2
+		"Cooling Unit"
 
 	gun 11 -2 "Crystaline"
 	gun -11 -2 "Crystaline"
@@ -234,12 +236,12 @@ ship "Battalion"
 		"shields" 12200
 		"hull" 7600
 		"automaton" 1
-		"mass" 330
+		"mass" 320
 		"drag" 13.5
 		"heat dissipation" .7
 		"fuel capacity" 800
 		"cargo space" 100
-		"outfit space" 282
+		"outfit space" 297
 		"weapon capacity" 138
 		"engine capacity" 95
 		"energy capacity" 3500
@@ -261,6 +263,7 @@ ship "Battalion"
 		"Penran Engine"
 		"Hyperdrive"
 		"Repair Unit" 3
+		"Cooling Unit"
 
 	turret 0 -27 "Obsidian Unit"
 	turret 0 29.5 "Obsidian Unit"
@@ -283,12 +286,12 @@ ship "Firestorm"
 		"shields" 10800
 		"hull" 5800
 		"automaton" 1
-		"mass" 260
+		"mass" 250
 		"drag" 7.8
 		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 30
-		"outfit space" 348
+		"outfit space" 363
 		"weapon capacity" 196
 		"engine capacity" 136
 		"energy capacity" 2800
@@ -312,6 +315,7 @@ ship "Firestorm"
 		"Penran Engine"
 		"Hyperdrive"
 		"Repair Unit" 3
+		"Cooling Unit"
 	
 	gun 0 -74
 	gun 10.5 -94.5 "Bolt Caster"
@@ -384,12 +388,12 @@ ship "Inferno"
 		"hull" 8900
 		"required crew" 1
 		"bunks" 1
-		"mass" 630
+		"mass" 610
 		"drag" 13.5
 		"heat dissipation" .7
 		"fuel capacity" 700
 		"cargo space" 80
-		"outfit space" 482
+		"outfit space" 512
 		"weapon capacity" 268
 		"engine capacity" 154
 		"energy capacity" 6500
@@ -415,6 +419,7 @@ ship "Inferno"
 		"Hexan Engine"
 		"Hyperdrive"
 		"Repair Unit" 4
+		"Cooling Unit" 2
 
 	gun 6.5 -74 "Crystaline"
 	gun -6.5 -74 "Crystaline"

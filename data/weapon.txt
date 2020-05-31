@@ -31,7 +31,7 @@ outfit "Bolt Caster"
 		"firing heat" 28
 		"shield damage" 19
 		"hull damage" 1.5
-		"heat damage" 82
+		"heat damage" 76
 	description ""
 	
 effect "Caster hit"
@@ -64,9 +64,9 @@ outfit "Caster Turret"
 		"reload" 3
 		"firing energy" 19.4
 		"firing heat" 25
-		"shield damage" 21
+		"shield damage" 18
 		"hull damage" 3.5
-		"heat damage" 120
+		"heat damage" 70
 		"burst count" 3
 		"burst reload" 1
 	description ""
@@ -169,7 +169,7 @@ outfit "Flash Cutter"
 		"firing heat" 12.5
 		"shield damage" 2.5
 		"hull damage" 24
-		"heat damage" 13
+		"heat damage" 10
 	description ""
 
 effect "Cutter hit"
@@ -209,7 +209,7 @@ outfit "Crystaline"
 		"firing heat" 30
 		"shield damage" 70
 		"hull damage" 45
-		"heat damage" 580
+		"heat damage" 520
 		
 		acceleration 0.1
 		drag 0.015
@@ -222,7 +222,7 @@ outfit "Crystaline"
 
 outfit "Shard"
 	category "Ammunition"
-	cost 800
+	cost 650
 	thumbnail "outfit/Shard"
 	"mass" 0.2
 	"Shard capacity" -1

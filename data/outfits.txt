@@ -37,3 +37,12 @@ outfit "Repair Unit"
 	"hull energy" 0.06
 	"hull repair rate" 0.1
 	description "Small and compact maintenance unit"
+
+outfit "Cooling Unit"
+	category "Systems"
+	cost 210000
+	thumbnail "outfit/Cooling Unit"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 13
+	description ""

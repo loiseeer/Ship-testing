@@ -27,6 +27,7 @@ outfitter "Plug outfit"
 	"Caster Turret"
 	"Obsidian Unit"
 	"Pincer"
+	"Cooling Unit"
 
 shipyard "Plug ships"
 	"Shard Scout"
