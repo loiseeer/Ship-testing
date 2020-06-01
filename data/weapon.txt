@@ -63,7 +63,7 @@ outfit "Caster Turret"
 		"lifetime" 42
 		"reload" 3
 		"firing energy" 19.4
-		"firing heat" 25
+		"firing heat" 22
 		"shield damage" 18
 		"hull damage" 3.5
 		"heat damage" 70
@@ -73,7 +73,7 @@ outfit "Caster Turret"
 
 outfit "Pincer"
 	category "Turrets"
-	cost 1080000
+	cost 620000
 	thumbnail "outfit/Pincer"
 	"mass" 26
 	"outfit space" -26
@@ -83,7 +83,7 @@ outfit "Pincer"
 		sprite "projectile/Pincer"
 		"hardpoint sprite" "hardpoint/Pincer"
 		"hardpoint offset" 0.25
-		"turret turn" 1.3
+		"turret turn" 1.95
 		sound "banisher"
 		"hit effect" "Pincer hit"
 		"hit effect" "Pincer Fragment" 1
@@ -188,7 +188,7 @@ outfit "Crystaline"
 	"outfit space" -22
 	"weapon capacity" -22
 	"gun ports" -1
-	"Shard capacity" 90
+	"Shard capacity" 60
 	weapon
 		sprite "projectile/Shard"
 		"hardpoint offset" 0.3
@@ -205,8 +205,8 @@ outfit "Crystaline"
 		"velocity" 14
 		"lifetime" 35
 		"reload" 15
-		"firing energy" 8.5
-		"firing heat" 30
+		"firing energy" 26.5
+		"firing heat" 34
 		"shield damage" 70
 		"hull damage" 45
 		"heat damage" 520

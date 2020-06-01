@@ -39,6 +39,8 @@ shipyard "Plug ships"
 	"Firestorm"
 	"Inferno"
 	"Pyre"
+	"Lighter"
+	"Overseer"
 
 planet "New Boston"
 	outfitter "Plug outfit"
