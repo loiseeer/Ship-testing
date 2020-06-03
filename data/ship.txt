@@ -541,9 +541,9 @@ ship "Overseer"
 		"heat dissipation" .65
 		"fuel capacity" 1000
 		"cargo space" 300
-		"outfit space" 600
-		"weapon capacity" 350
-		"engine capacity" 160
+		"outfit space" 468
+		"weapon capacity" 216
+		"engine capacity" 142
 		"energy capacity" 2800
 		"energy generation" 42.5
 		"heat generation" 35.9
@@ -584,5 +584,5 @@ ship "Overseer"
 	engine 0 108.5
 	explode "small explosion" 30
 	explode "medium explosion" 35
-	explode "large explosion" 15
+	explode "large explosion" 20
 	"final explode" "final explosion large"
