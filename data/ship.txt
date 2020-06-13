@@ -39,7 +39,7 @@ ship "Blaze"
 		"Bolt Caster" 2
 
 		"Trian Steering"
-		"Trian Engine"
+		"Trian Thruster"
 		"Hyperdrive"
 		"Repair Unit"
 	
@@ -82,7 +82,7 @@ ship "Ember"
 		"Flash Cutter"
 
 		"Trian Steering"
-		"Trian Engine"
+		"Trian Thruster"
 		"Hyperdrive"
 		"Repair Unit"
 	
@@ -166,7 +166,7 @@ ship "Lighter"
 		"Shard" 60
 
 		"Trian Steering"
-		"Trian Engine"
+		"Trian Thruster"
 		"Repair Unit"
 	
 	gun 0 -17
@@ -208,7 +208,7 @@ ship "Cinder"
 		"Flash Cutter"
 
 		"Quadran Steering"
-		"Quadran Engine"
+		"Quadran Thruster"
 		"Hyperdrive"
 		"Repair Unit" 2
 		"Cooling Unit"
@@ -255,7 +255,7 @@ ship "Lance Slicer"
 	outfits
 
 		"Quadran Steering"
-		"Quadran Engine"
+		"Quadran Thruster"
 		"Hyperdrive"
 		"Repair Unit" 2
 
@@ -293,7 +293,7 @@ ship "Firekin"
 		"Shard" 120
 
 		"Quadran Steering"
-		"Quadran Engine"
+		"Quadran Thruster"
 		"Hyperdrive"
 		"Repair Unit" 2
 		"Cooling Unit"
@@ -343,7 +343,7 @@ ship "Battalion"
 		"Obsidian Unit" 2
 
 		"Quadran Steering"
-		"Penran Engine"
+		"Penran Thruster"
 		"Hyperdrive"
 		"Repair Unit" 3
 		"Cooling Unit"
@@ -397,7 +397,7 @@ ship "Firestorm"
 		"Obsidian Unit"
 
 		"Penran Steering"
-		"Penran Engine"
+		"Penran Thruster"
 		"Hyperdrive"
 		"Repair Unit" 3
 		"Cooling Unit"
@@ -451,7 +451,7 @@ ship "Scavenger Unit"
 		"Flash Cutter"
 
 		"Quadran Steering"
-		"Quadran Engine"
+		"Quadran Thruster"
 		"Hyperdrive"
 		"Repair Unit" 4
 	gun 0 -59
@@ -500,7 +500,7 @@ ship "Inferno"
 		"Pincer" 2
 
 		"Hexan Steering"
-		"Hexan Engine"
+		"Hexan Thruster"
 		"Hyperdrive"
 		"Repair Unit" 4
 		"Cooling Unit" 2
@@ -561,7 +561,7 @@ ship "Overseer"
 		"Caster Turret" 4
 
 		"Hexan Steering"
-		"Hexan Engine"
+		"Hexan Thruster"
 		"Hyperdrive"
 		"Repair Unit" 4
 		"Cooling Unit" 2

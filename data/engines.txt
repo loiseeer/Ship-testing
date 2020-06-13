@@ -8,10 +8,10 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-outfit "Trian Engine"
+outfit "Trian Thruster"
 	category "Engines"
 	cost 100000
-	thumbnail "outfit/Trian Engine"
+	thumbnail "outfit/Trian Thruster"
 	"mass" 19
 	"outfit space" -19
 	"engine capacity" -19
@@ -33,10 +33,10 @@ outfit "Trian Steering"
 	"turning energy" 1.18
 	"turning heat" 0.7
 
-outfit "Quadran Engine"
+outfit "Quadran Thruster"
 	category "Engines"
 	cost 380000
-	thumbnail "outfit/Quadran Engine"
+	thumbnail "outfit/Quadran Thruster"
 	"mass" 30
 	"outfit space" -31
 	"engine capacity" -31
@@ -59,10 +59,10 @@ outfit "Quadran Steering"
 	"turning energy" 1.65
 	"turning heat" 1.1
 
-outfit "Penran Engine"
+outfit "Penran Thruster"
 	category "Engines"
 	cost 890000
-	thumbnail "outfit/Penran Engine"
+	thumbnail "outfit/Penran Thruster"
 	"mass" 55
 	"outfit space" -55
 	"engine capacity" -55
@@ -85,10 +85,10 @@ outfit "Penran Steering"
 	"turning energy" 3.05
 	"turning heat" 1.7
 
-outfit "Hexan Engine"
+outfit "Hexan Thruster"
 	category "Engines"
 	cost 186000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/Hexan Thruster"
 	"mass" 80
 	"outfit space" -80
 	"engine capacity" -80
@@ -102,7 +102,7 @@ outfit "Hexan Engine"
 outfit "Hexan Steering"
 	category "Engines"
 	cost 2020000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/Hexan Steering"
 	"mass" 58
 	"outfit space" -58
 	"engine capacity" -58

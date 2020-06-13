@@ -9,13 +9,13 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 outfitter "Plug outfit"
-	"Trian Engine"
+	"Trian Thruster"
 	"Trian Steering"
-	"Quadran Engine"
+	"Quadran Thruster"
 	"Quadran Steering"
-	"Penran Engine"
+	"Penran Thruster"
 	"Penran Steering"
-	"Hexan Engine"
+	"Hexan Thruster"
 	"Hexan Steering"
 	"Small Reactor"
 	"Medium Reactor"
